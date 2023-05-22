@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0
+}
+
+
+
+/* icons */
+
+.icon {
+    width: 34px;
+    height: 34px
+}
+
+.logo {
+    width: 84px;
+    height: 42px;
+}
+
+/* main-content */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.049em 0.812em 1.437em;
+}
+
+main {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: #F8F8F8;
+    border-radius: 15px;
+    
+}
+
+main h2 {
+    font-size: 2rem;
+    padding: 20.605em 0.385em 0.225em;
+}
+
+main h3 {
+    color: #B7B7B7;
+    padding: 0.225em 0.625em 0.513em;
+}
+
+.container {
+    margin: 0 0.5em;
+}
+
+footer {
+    margin: 1.535em 0 1.508em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: white;
+    margin-left: 1.508em;
+    padding: 1.5em;
+    border: none;
+    border-radius: 50%;
+    box-shadow: -4px 4px 15px #CDCDCD
+}
+
+.btn-heart:hover {
+    background-color: #DBFFF4;
+}
+
+.btn-cross:hover {
+    background-color: #FFE7EF;
+}
+
+.badge-container {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+    left: 1px
+
+}
+
+.badge {
+    width: 14.619em;
+}
+
+
+
+
